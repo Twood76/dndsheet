@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatsFragment" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/stats_stats"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <TextView
+            android:id="@+id/stats_str_lbl"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_str"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/stats_str_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+        	android:inputType="textMultiLine"
+            android:text="@string/not_set"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <TextView
+            android:id="@+id/stats_int_lbl"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_int"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/stats_int_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+        	android:inputType="textMultiLine"
+            android:text="@string/not_set"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <TextView
+            android:id="@+id/stats_wis_lbl"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_wis"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/stats_wis_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+        	android:inputType="textMultiLine"
+            android:text="@string/not_set"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <TextView
+            android:id="@+id/stats_dex_lbl"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_dex"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/stats_dex_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+        	android:inputType="textMultiLine"
+            android:text="@string/not_set"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <TextView
+            android:id="@+id/stats_con_lbl"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_con"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/stats_con_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+        	android:inputType="textMultiLine"
+            android:text="@string/not_set"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <TextView
+            android:id="@+id/stats_cha_lbl"
+            android:layout_width="50dip"
+            android:layout_height="wrap_content"
+            android:text="@string/stats_cha"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/stats_cha_val"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+        	android:inputType="textMultiLine"
+            android:text="@string/not_set"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/stats_spells_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dip"
+        android:text="@string/stats_spells"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/stats_spells_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dip" />
+
+    <TextView
+        android:id="@+id/stats_abil_lbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dip"
+        android:text="@string/stats_abil"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/stats_abil_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:paddingLeft="20dip" />
+
+    </LinearLayout>
+</ScrollView>
